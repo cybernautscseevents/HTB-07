@@ -1,0 +1,16 @@
+{
+  "bomFormat": "CycloneDX", "specVersion": "1.5", "version": 1,
+  "metadata": { "timestamp": "2026-10-01T10:00:00Z", "tools": [{ "name": "demo" }],
+    "component": { "bom-ref": "app", "type": "application", "name": "Production Web App" } },
+  "components": [
+    { "bom-ref": "lodash", "type": "library", "name": "lodash", "version": "4.17.15", "purl": "pkg:npm/lodash@4.17.15", "scope": "required", "supplier": { "name": "OpenJS" }, "licenses": [{ "license": { "id": "MIT" } }], "hashes": [{ "alg": "SHA-256", "content": "abc" }] },
+    { "bom-ref": "minimist", "type": "library", "name": "minimist", "version": "0.0.8", "purl": "pkg:npm/minimist@0.0.8", "scope": "required" },
+    { "bom-ref": "mkdirp", "type": "library", "name": "mkdirp", "version": "0.5.1", "purl": "pkg:npm/mkdirp@0.5.1", "scope": "required" },
+    { "bom-ref": "jest", "type": "library", "name": "jest", "version": "29.0.0", "purl": "pkg:npm/jest@29.0.0", "scope": "excluded" },
+    { "bom-ref": "mystery", "type": "library", "name": "mystery-lib" }
+  ],
+  "dependencies": [
+    { "ref": "app", "dependsOn": ["lodash", "mkdirp", "jest"] },
+    { "ref": "mkdirp", "dependsOn": ["minimist"] }
+  ]
+}

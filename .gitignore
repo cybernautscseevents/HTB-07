@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+backend/sbomback/.env
+backend/sbomback/data/accounts.json
+backend/sbomback/data/*.db*

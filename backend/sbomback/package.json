@@ -1,0 +1,23 @@
+{
+  "name": "sbom-risk-trust-auditor-backend",
+  "version": "1.0.0",
+  "description": "SBOM Risk & Trust Auditor API (CycloneDX/SPDX parsing, OSV lookups, contextual risk, SBOM trust score)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.6",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
