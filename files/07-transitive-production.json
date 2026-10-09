@@ -1,0 +1,69 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:transitive-production-app-fixture",
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/example-web-framework@1.0.0",
+      "name": "example-web-framework",
+      "version": "1.0.0",
+      "purl": "pkg:npm/example-web-framework@1.0.0",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/express@4.18.2",
+      "name": "express",
+      "version": "4.18.2",
+      "purl": "pkg:npm/express@4.18.2",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "transitive"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-10-09T00:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "app:transitive-production-app",
+      "name": "transitive-production-app",
+      "version": "1.0.0"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "app:transitive-production-app",
+      "dependsOn": [
+        "pkg:npm/example-web-framework@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/example-web-framework@1.0.0",
+      "dependsOn": [
+        "pkg:npm/express@4.18.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/express@4.18.2",
+      "dependsOn": []
+    }
+  ]
+}

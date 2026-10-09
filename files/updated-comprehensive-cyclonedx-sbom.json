@@ -1,0 +1,1630 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:58451a5c-59c4-4c2e-9c37-e76769f6d6c6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-09T04:54:54Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "name": "SBOM Risk & Trust Auditor Test Fixture",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "bom-ref": "urn:demo:sbom-risk-trust-auditor:comprehensive-app:1.0.0",
+      "name": "comprehensive-demo-web-app",
+      "version": "1.0.0",
+      "description": "Illustrative SBOM for testing component parsing, dependency relationships, vulnerability enrichment, and quality checks.",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Example Application Team"
+      }
+    },
+    "properties": [
+      {
+        "name": "fixture:purpose",
+        "value": "testing-only"
+      },
+      {
+        "name": "fixture:warning",
+        "value": "Not a production lockfile; dependency graph is illustrative."
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/express@4.17.1",
+      "name": "express",
+      "version": "4.20.0",
+      "purl": "pkg:npm/express@4.20.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e1349d0cb90053d7820ab3d4d8b10102e1349d0cb90053d7820ab3d4d8b10102"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash@4.17.20",
+      "name": "lodash",
+      "version": "4.18.0",
+      "purl": "pkg:npm/lodash@4.18.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5e3d7b1f5e6d5ac4bc902cee9d03f80e5e3d7b1f5e6d5ac4bc902cee9d03f80e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/axios@0.21.1",
+      "name": "axios",
+      "version": "0.33.0",
+      "purl": "pkg:npm/axios@0.33.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f8bb39e8818c5ab49d5a60718ef8daf0f8bb39e8818c5ab49d5a60718ef8daf0"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist@1.2.5",
+      "name": "minimist",
+      "version": "1.2.6",
+      "purl": "pkg:npm/minimist@1.2.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a04aa3108b3459f89927325d649fb2dca04aa3108b3459f89927325d649fb2dc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/jsonwebtoken@8.5.1",
+      "name": "jsonwebtoken",
+      "version": "9.0.0",
+      "purl": "pkg:npm/jsonwebtoken@9.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91732f859ad5506f9986b4ee429cbba691732f859ad5506f9986b4ee429cbba6"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/qs@6.5.2",
+      "name": "qs",
+      "version": "6.16.0",
+      "purl": "pkg:npm/qs@6.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "881d1193d0e95ebf94f83859a1e94faf881d1193d0e95ebf94f83859a1e94faf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@0.4.0",
+      "name": "cookie",
+      "version": "0.7.0",
+      "purl": "pkg:npm/cookie@0.7.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "962d8c4a3c75527e83569516748f00de962d8c4a3c75527e83569516748f00de"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/path-to-regexp@0.1.7",
+      "name": "path-to-regexp",
+      "version": "0.1.13",
+      "purl": "pkg:npm/path-to-regexp@0.1.13",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "77faa138f280513e911ee6d6ebf5729077faa138f280513e911ee6d6ebf57290"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/body-parser@1.19.0",
+      "name": "body-parser",
+      "version": "1.20.6",
+      "purl": "pkg:npm/body-parser@1.20.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "017bfa81cc3458bca78ff3bb9939f1c2017bfa81cc3458bca78ff3bb9939f1c2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@2.6.9",
+      "name": "debug",
+      "version": "2.6.9",
+      "purl": "pkg:npm/debug@2.6.9",
+      "scope": "required",
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3ef4a23d2833585195b0521c2e7412813ef4a23d2833585195b0521c2e741281"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/http-errors@1.8.0",
+      "name": "http-errors",
+      "version": "1.8.0",
+      "purl": "pkg:npm/http-errors@1.8.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d1f149126fcf59089c5eaeebf894c6bdd1f149126fcf59089c5eaeebf894c6bd"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/safe-buffer@5.1.2",
+      "name": "safe-buffer",
+      "version": "5.1.2",
+      "purl": "pkg:npm/safe-buffer@5.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/send@0.17.1",
+      "name": "send",
+      "version": "0.19.0",
+      "purl": "pkg:npm/send@0.19.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "05371247a7635fce9f117d4c56164b5c05371247a7635fce9f117d4c56164b5c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/serve-static@1.14.1",
+      "name": "serve-static",
+      "version": "1.16.0",
+      "purl": "pkg:npm/serve-static@1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe5124fc0db75ebf92f2ae4525b9d8effe5124fc0db75ebf92f2ae4525b9d8ef"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/accepts@1.3.7",
+      "name": "accepts",
+      "version": "1.3.7",
+      "purl": "pkg:npm/accepts@1.3.7",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d3ef57395b8c5505a3240cc0e4443fecd3ef57395b8c5505a3240cc0e4443fec"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/array-flatten@1.1.1",
+      "name": "array-flatten",
+      "version": "1.1.1",
+      "purl": "pkg:npm/array-flatten@1.1.1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "020bd9c429755d97a8b2ba7e0219977e020bd9c429755d97a8b2ba7e0219977e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/content-type@1.0.4",
+      "name": "content-type",
+      "version": "1.0.4",
+      "purl": "pkg:npm/content-type@1.0.4",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ff3dd0b0c25b5d57bb38bff2a91669cfff3dd0b0c25b5d57bb38bff2a91669cf"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/content-disposition@0.5.3",
+      "name": "content-disposition",
+      "version": "0.5.3",
+      "purl": "pkg:npm/content-disposition@0.5.3",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "36b03e935b1d57ccad66cf894f4ed3cc36b03e935b1d57ccad66cf894f4ed3cc"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie-signature@1.0.6",
+      "name": "cookie-signature",
+      "version": "1.0.6",
+      "purl": "pkg:npm/cookie-signature@1.0.6",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b96bca79b1245f37a50b3b8e7b6c62dfb96bca79b1245f37a50b3b8e7b6c62df"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/depd@1.1.2",
+      "name": "depd",
+      "version": "1.1.2",
+      "purl": "pkg:npm/depd@1.1.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f7e7ea0ae871556489193701abb64167f7e7ea0ae871556489193701abb64167"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/destroy@1.0.4",
+      "name": "destroy",
+      "version": "1.0.4",
+      "purl": "pkg:npm/destroy@1.0.4",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d98dfb44b2e5d54a647459ac83828178d98dfb44b2e5d54a647459ac8382817"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/encodeurl@1.0.2",
+      "name": "encodeurl",
+      "version": "1.0.2",
+      "purl": "pkg:npm/encodeurl@1.0.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ecf51aca56c5f66b6b41f2ca0f1e3556ecf51aca56c5f66b6b41f2ca0f1e355"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/escape-html@1.0.3",
+      "name": "escape-html",
+      "version": "1.0.3",
+      "purl": "pkg:npm/escape-html@1.0.3",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f4206d30b5ef5bbd9276076d817e3417f4206d30b5ef5bbd9276076d817e3417"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/etag@1.8.1",
+      "name": "etag",
+      "version": "1.8.1",
+      "purl": "pkg:npm/etag@1.8.1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/fresh@0.5.2",
+      "name": "fresh",
+      "version": "0.5.2",
+      "purl": "pkg:npm/fresh@0.5.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "32d35acc0df95cfaa57d5b20c705032232d35acc0df95cfaa57d5b20c7050322"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/merge-descriptors@1.0.1",
+      "name": "merge-descriptors",
+      "version": "1.0.1",
+      "purl": "pkg:npm/merge-descriptors@1.0.1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fa91452695f55438b5e8e5177a73d755fa91452695f55438b5e8e5177a73d755"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/methods@1.1.2",
+      "name": "methods",
+      "version": "1.1.2",
+      "purl": "pkg:npm/methods@1.1.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a69171de4c3957169a4c3d2f04d7bab3a69171de4c3957169a4c3d2f04d7bab3"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/on-finished@2.3.0",
+      "name": "on-finished",
+      "version": "2.3.0",
+      "purl": "pkg:npm/on-finished@2.3.0",
+      "scope": "optional",
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e9be915a60c95e01b679a49cc576f3cae9be915a60c95e01b679a49cc576f3ca"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/parseurl@1.3.3",
+      "name": "parseurl",
+      "version": "1.3.3",
+      "purl": "pkg:npm/parseurl@1.3.3",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7734260b0685242b8c1be855dd4d478e7734260b0685242b8c1be855dd4d478"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/proxy-addr@2.0.7",
+      "name": "proxy-addr",
+      "version": "2.0.8",
+      "purl": "pkg:npm/proxy-addr@2.0.8",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ed3c2fb39a6f5b6a9e8695b5b88bdf6bed3c2fb39a6f5b6a9e8695b5b88bdf6b"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/range-parser@1.2.1",
+      "name": "range-parser",
+      "version": "1.2.1",
+      "purl": "pkg:npm/range-parser@1.2.1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "83f20edc807c5a33909cde239939832e83f20edc807c5a33909cde239939832e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/statuses@1.5.0",
+      "name": "statuses",
+      "version": "1.5.0",
+      "purl": "pkg:npm/statuses@1.5.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "72d972d4e92c5987a7a253fea2fc283c72d972d4e92c5987a7a253fea2fc283c"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/type-is@1.6.18",
+      "name": "type-is",
+      "version": "1.6.18",
+      "purl": "pkg:npm/type-is@1.6.18",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac9b756fe9eb5631a5e5e7f61622126eac9b756fe9eb5631a5e5e7f61622126e"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/unpipe@1.0.0",
+      "name": "unpipe",
+      "version": "1.0.0",
+      "purl": "pkg:npm/unpipe@1.0.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2c7133ffcea056dbb4f93e118170ced42c7133ffcea056dbb4f93e118170ced4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "production"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/vary@1.1.2",
+      "name": "vary",
+      "version": "1.1.2",
+      "purl": "pkg:npm/vary@1.1.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/follow-redirects@1.14.8",
+      "name": "follow-redirects",
+      "version": "1.16.0",
+      "purl": "pkg:npm/follow-redirects@1.16.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "048737f09f7c5213b51402d290045622048737f09f7c5213b51402d290045622"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/form-data@4.0.0",
+      "name": "form-data",
+      "version": "4.0.6",
+      "purl": "pkg:npm/form-data@4.0.6",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0dca6de6699f555cb9c63341ff0576b80dca6de6699f555cb9c63341ff0576b8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/sprintf-js@1.0.3",
+      "name": "sprintf-js",
+      "version": "1.0.3",
+      "purl": "pkg:npm/sprintf-js@1.0.3",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ca81e970913456bbbc9f507a36f1acf4ca81e970913456bbbc9f507a36f1acf4"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/yargs-parser@13.1.2",
+      "name": "yargs-parser",
+      "version": "13.1.2",
+      "purl": "pkg:npm/yargs-parser@13.1.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "ISC"
+          }
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "905422cb8158554fb251b0b975539005905422cb8158554fb251b0b975539005"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist-alt@1.0.0",
+      "name": "minimist-alt",
+      "version": "1.0.0",
+      "purl": "pkg:npm/minimist-alt@1.0.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "supplier": {
+        "name": "Package Maintainers"
+      },
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6a2a424d967655b19ea6673333d1c95d6a2a424d967655b19ea6673333d1c95d"
+        }
+      ],
+      "properties": [
+        {
+          "name": "fixture:purpose",
+          "value": "testing-only"
+        },
+        {
+          "name": "fixture:context",
+          "value": "development"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "urn:demo:sbom-risk-trust-auditor:comprehensive-app:1.0.0",
+      "dependsOn": [
+        "pkg:npm/express@4.17.1",
+        "pkg:npm/lodash@4.17.20",
+        "pkg:npm/axios@0.21.1",
+        "pkg:npm/minimist@1.2.5",
+        "pkg:npm/jsonwebtoken@8.5.1",
+        "pkg:npm/qs@6.5.2",
+        "pkg:npm/cookie@0.4.0",
+        "pkg:npm/path-to-regexp@0.1.7",
+        "pkg:npm/body-parser@1.19.0",
+        "pkg:npm/debug@2.6.9"
+      ]
+    },
+    {
+      "ref": "pkg:npm/express@4.17.1",
+      "dependsOn": [
+        "pkg:npm/http-errors@1.8.0",
+        "pkg:npm/array-flatten@1.1.1",
+        "pkg:npm/destroy@1.0.4"
+      ]
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.20",
+      "dependsOn": [
+        "pkg:npm/safe-buffer@5.1.2",
+        "pkg:npm/content-type@1.0.4",
+        "pkg:npm/encodeurl@1.0.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/axios@0.21.1",
+      "dependsOn": [
+        "pkg:npm/send@0.17.1",
+        "pkg:npm/content-disposition@0.5.3",
+        "pkg:npm/escape-html@1.0.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/minimist@1.2.5",
+      "dependsOn": [
+        "pkg:npm/serve-static@1.14.1",
+        "pkg:npm/cookie-signature@1.0.6",
+        "pkg:npm/etag@1.8.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/jsonwebtoken@8.5.1",
+      "dependsOn": [
+        "pkg:npm/accepts@1.3.7",
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/fresh@0.5.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/qs@6.5.2",
+      "dependsOn": [
+        "pkg:npm/array-flatten@1.1.1",
+        "pkg:npm/destroy@1.0.4",
+        "pkg:npm/merge-descriptors@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/cookie@0.4.0",
+      "dependsOn": [
+        "pkg:npm/content-type@1.0.4",
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/methods@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/path-to-regexp@0.1.7",
+      "dependsOn": [
+        "pkg:npm/content-disposition@0.5.3",
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/on-finished@2.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/body-parser@1.19.0",
+      "dependsOn": [
+        "pkg:npm/cookie-signature@1.0.6",
+        "pkg:npm/etag@1.8.1",
+        "pkg:npm/parseurl@1.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/debug@2.6.9",
+      "dependsOn": [
+        "pkg:npm/depd@1.1.2",
+        "pkg:npm/fresh@0.5.2",
+        "pkg:npm/proxy-addr@2.0.7"
+      ]
+    },
+    {
+      "ref": "pkg:npm/http-errors@1.8.0",
+      "dependsOn": [
+        "pkg:npm/destroy@1.0.4",
+        "pkg:npm/merge-descriptors@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/safe-buffer@5.1.2",
+      "dependsOn": [
+        "pkg:npm/encodeurl@1.0.2",
+        "pkg:npm/methods@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/send@0.17.1",
+      "dependsOn": [
+        "pkg:npm/escape-html@1.0.3",
+        "pkg:npm/on-finished@2.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/serve-static@1.14.1",
+      "dependsOn": [
+        "pkg:npm/etag@1.8.1",
+        "pkg:npm/parseurl@1.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/accepts@1.3.7",
+      "dependsOn": [
+        "pkg:npm/fresh@0.5.2",
+        "pkg:npm/proxy-addr@2.0.7"
+      ]
+    },
+    {
+      "ref": "pkg:npm/array-flatten@1.1.1",
+      "dependsOn": [
+        "pkg:npm/merge-descriptors@1.0.1",
+        "pkg:npm/range-parser@1.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/content-type@1.0.4",
+      "dependsOn": [
+        "pkg:npm/methods@1.1.2",
+        "pkg:npm/statuses@1.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/content-disposition@0.5.3",
+      "dependsOn": [
+        "pkg:npm/on-finished@2.3.0",
+        "pkg:npm/type-is@1.6.18"
+      ]
+    },
+    {
+      "ref": "pkg:npm/cookie-signature@1.0.6",
+      "dependsOn": [
+        "pkg:npm/parseurl@1.3.3",
+        "pkg:npm/unpipe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/depd@1.1.2",
+      "dependsOn": [
+        "pkg:npm/proxy-addr@2.0.7",
+        "pkg:npm/vary@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/destroy@1.0.4",
+      "dependsOn": [
+        "pkg:npm/merge-descriptors@1.0.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/encodeurl@1.0.2",
+      "dependsOn": [
+        "pkg:npm/methods@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/escape-html@1.0.3",
+      "dependsOn": [
+        "pkg:npm/on-finished@2.3.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/etag@1.8.1",
+      "dependsOn": [
+        "pkg:npm/parseurl@1.3.3"
+      ]
+    },
+    {
+      "ref": "pkg:npm/fresh@0.5.2",
+      "dependsOn": [
+        "pkg:npm/proxy-addr@2.0.7"
+      ]
+    },
+    {
+      "ref": "pkg:npm/merge-descriptors@1.0.1",
+      "dependsOn": [
+        "pkg:npm/range-parser@1.2.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/methods@1.1.2",
+      "dependsOn": [
+        "pkg:npm/statuses@1.5.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/on-finished@2.3.0",
+      "dependsOn": [
+        "pkg:npm/type-is@1.6.18"
+      ]
+    },
+    {
+      "ref": "pkg:npm/parseurl@1.3.3",
+      "dependsOn": [
+        "pkg:npm/unpipe@1.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/proxy-addr@2.0.7",
+      "dependsOn": [
+        "pkg:npm/vary@1.1.2"
+      ]
+    },
+    {
+      "ref": "pkg:npm/range-parser@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/statuses@1.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/type-is@1.6.18",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/unpipe@1.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/vary@1.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/follow-redirects@1.14.8",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/form-data@4.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/sprintf-js@1.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/yargs-parser@13.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/minimist-alt@1.0.0",
+      "dependsOn": []
+    }
+  ]
+}

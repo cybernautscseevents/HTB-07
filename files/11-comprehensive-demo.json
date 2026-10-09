@@ -1,0 +1,191 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "serialNumber": "urn:uuid:comprehensive-demo-app-fixture",
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/express@4.18.2",
+      "name": "express",
+      "version": "4.18.2",
+      "purl": "pkg:npm/express@4.18.2",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "name": "lodash",
+      "version": "4.17.21",
+      "purl": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "transitive"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/example-web-framework@1.0.0",
+      "name": "example-web-framework",
+      "version": "1.0.0",
+      "purl": "pkg:npm/example-web-framework@1.0.0",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/django@2.2.0",
+      "name": "django",
+      "version": "2.2.0",
+      "purl": "pkg:pypi/django@2.2.0",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "name": "log4j-core",
+      "version": "2.14.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "transitive"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/jest@29.7.0",
+      "name": "jest",
+      "version": "29.7.0",
+      "purl": "pkg:npm/jest@29.7.0",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "development"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/react@19.2.0",
+      "name": "react",
+      "version": "19.2.0",
+      "purl": "pkg:npm/react@19.2.0",
+      "properties": [
+        {
+          "name": "sbom-auditor:environment",
+          "value": "production"
+        },
+        {
+          "name": "sbom-auditor:dependency-scope",
+          "value": "direct"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "timestamp": "2026-10-09T00:00:00Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "app:comprehensive-demo-app",
+      "name": "comprehensive-demo-app",
+      "version": "1.0.0"
+    }
+  },
+  "dependencies": [
+    {
+      "ref": "app:comprehensive-demo-app",
+      "dependsOn": [
+        "pkg:npm/express@4.18.2",
+        "pkg:npm/example-web-framework@1.0.0",
+        "pkg:pypi/django@2.2.0",
+        "pkg:npm/jest@29.7.0",
+        "pkg:npm/react@19.2.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/example-web-framework@1.0.0",
+      "dependsOn": [
+        "pkg:npm/lodash@4.17.21",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/express@4.18.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/lodash@4.17.21",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/django@2.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/jest@29.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:npm/react@19.2.0",
+      "dependsOn": []
+    }
+  ]
+}

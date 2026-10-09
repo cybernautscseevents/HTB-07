@@ -1,0 +1,59 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "spdx-vulnerable-app",
+  "documentNamespace": "https://example.com/spdx/spdx-vulnerable-app",
+  "creationInfo": {
+    "created": "2026-10-09T00:00:00Z",
+    "creators": [
+      "Tool: SBOM Risk & Trust Auditor Test Fixture Generator"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Django",
+      "name": "django",
+      "versionInfo": "2.2.0",
+      "downloadLocation": "https://pypi.org/project/Django/2.2.0/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:pypi/django@2.2.0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Log4j",
+      "name": "log4j-core",
+      "versionInfo": "2.14.1",
+      "downloadLocation": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.14.1/",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "Apache-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Django"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Log4j"
+    }
+  ]
+}
